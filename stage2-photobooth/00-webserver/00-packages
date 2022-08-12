@@ -1,0 +1,2 @@
+nginx
+php${PHP_VERSION}-fpm php${PHP_VERSION}-gd php${PHP_VERSION}-zip php${PHP_VERSION}

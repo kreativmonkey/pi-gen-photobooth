@@ -1,0 +1,7 @@
+python3 python3-gphoto2 python3-psutil python3-zmq
+raspberrypi-kernel-headers
+v4l2loopback-dkms ffmpeg gphoto2
+libimage-exiftool-perl
+curl
+cups
+git
