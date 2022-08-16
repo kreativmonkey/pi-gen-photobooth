@@ -35,7 +35,7 @@ EOF
 # Installing the newest version of gphoto2
 wget -O - https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh -O files/gphoto2-updater.sh
 wget -O - https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/.env -O files/.env
-install -m 755 files/Install-Node.sh "${ROOTFS_DIR}"/home/${FIRST_USER_NAME}/gphoto2-updater.sh
+install -m 755 files/gphoto2-updater.sh "${ROOTFS_DIR}"/home/${FIRST_USER_NAME}/gphoto2-updater.sh
 install -m 655 files/.env "${ROOTFS_DIR}"/home/${FIRST_USER_NAME}/.env
 
 on_chroot << EOF
